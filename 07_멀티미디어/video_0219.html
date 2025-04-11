@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>video</title>
+</head>
+<body>
+
+    <!-- 영상은 음소거 상태일때 autoplay 가능 -->
+    <!-- 영상에서의 크기 조절은 나오는 영상의 비율을 조절 -->
+
+    <h1>동영상 파일 올리기</h1>
+
+    <video src="media/video_europe.mp4" controls loop autoplay></video>  
+    
+    <h2>유튜브 영상 올리기</h2>
+
+    <iframe width="1000" height="700" src="https://www.youtube.com/embed/Se3BF940M7U?si=ShWJT7hUgyvAV2PF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <br><br>
+
+    <!-- embed : 외부의 문서를 끼워 넣는것 , 
+         정책으로 <iframe>을 사용하지 못 할때 <embed> 태그에 src주소 가져와서 사용-->
+            
+    <embed src="https://www.youtube.com/embed/Se3BF940M7U?si=ShWJT7hUgyvAV2PF" type="video/mp4" width="500" height="800">
+    
+</body>
+</html>

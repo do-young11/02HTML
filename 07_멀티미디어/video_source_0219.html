@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>video_source_0219</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+    <video> 태그 안에 <source> 태그를 포맷 갯수에 따라 사용
+    먼저 지원 하는 포맷으로 브라우저에 재생 (모두 지원 할 경우 첫번째로 재생)
+    <source>안에 src, type 속성 꼭 사용
+    -->
+
+    <h1>밤 하늘을 수 놓는 불꽃</h1>
+    
+    <video controls muted autoplay>
+        <source src="media/Fireworks.mp4" type="video/mp4">
+        <source src="media/Fireworks.webm" type="video/webm">
+        이 영상을 보기 위해서는 html5를 지원하는 브라우저가 필요합니다. - 브라우저를 지원하지 않는 곳에서 표기 됨. 
+    </video>
+
+    <!-- audio, video 태그에서 source 태그를 사용할 때 type 속성
+     
+    type="audio/파일포멧"
+    type="video/파일포멧"
+    
+    mp4 : 최신 브라우저에서 모두 지원, 이전 버전에서 재생이 안되는 경우도 있음
+    webm : 무료 코덱사용, 화질이 뛰어남 -->
+
+
+    
+</body>
+</html>
